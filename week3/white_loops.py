@@ -1,8 +1,19 @@
 print("How many apples should I remove?")
-apples=input()
+iterations = 0
 
-if apples=="3":
-    print("Removed apple.")
-    print("Removed apple.")
-    print("Removed apple.")
+apple=input()
+
+if input=="3":
+
+  print("Removed apple.")
+
+while iterations < 3:
+
+   iterations = iterations +1
+
+   print("Removed apple.")
+
+print("All apples are gone.")
+
+
 
