@@ -1,0 +1,15 @@
+print("What is your name?")
+name=input()
+print()
+print("How old are you in years?")
+age=input()
+print()
+print("How tall are you in meters?")
+height=input()
+print()
+print("How much do you weigh? in kilograms?")
+weight=input()
+print()
+
+print("f {name} you are {age} years old and your bmi is {} ")
+
