@@ -12,3 +12,16 @@ def run():
 
     print("What is the weight of their inventory?")
     inventory_weight = float(input())
+
+    print("What would you like to calculate (sum or average)?")
+    action = input()
+    if action == "sum":
+        answer = sum_weights(person_weight, inventory_weight)
+        print(f"The sum of the weights is {answer:.2f}")
+    elif action == "average":
+        answer = calc_avg_weight(person_weight, inventory_weight)
+        print(f"The average of the weights is {answer:.2f}")
+    else:
+        print("I'm not sure what you'd like to do.")
+
+run()
