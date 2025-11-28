@@ -1,4 +1,7 @@
-class Human:
+from inhabitant import Inhabitant
+
+
+class Human(Inhabitant):
     MAX_ENERGY=100
     def __init__(self):
           self.name= "Human"
